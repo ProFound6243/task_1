@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Yuklab olingan kutubxonalar-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Task one</title>
+</head>
+<body>
+    <div class="container mx-auto py-8">
+        <div class="top relative p-4 grid w-full h-auto">
+            <h1 class="text-3xl font-bold text-center text-neutral-900">Lorem ipsum</h1>
+            <div class="relative w-48 mx-auto mt-4"> <!--Sarlovhaning tagidagi chiziq-->
+                <div class="absolute w-2 h-2 bg-blue-500 rounded-full -translate-y-[50%]
+                            before:absolute before:w-3 before:h-3 before:rounded-full before:-m-[2px] before:border before:border-blue-500
+                            after:absolute after:w-4 after:h-4 after:rounded-full after:-m-[4px] after:border after:border-blue-500 after:border-[0.5px]"></div>
+                <hr class="border-blue-500
+                           after:absolute after:w-2 after:h-2 after:bg-blue-500 after:rounded-full after:-translate-y-[50%] after:ml-48">
+            </div>
+            <p class="text-center mx-auto w-full mt-8 text-neutral-500 md:max-w-xl"> <!--Sarlovhaga izoh-->
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae est at quasi, magni numquam minima, animi odit, similique ipsam deserunt natus expedita?
+            </p>
+        </div>
+        <div class="owl-carousel owl-theme mt-8">
+            <div class="item md:max-w-[768px] transition ease-in-out delay-150">
+                <div class="w-full">
+                    <figure>
+                        <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="image">
+                    </figure>
+                    <h2 class="font-medium mt-2">1. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                    <p class="text-neutral-500 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, molestias eos! Inventore sint est veniam.</p>
+                    <a href="#" class="text-xs text-blue-500">READ MORE</a>
+                </div>
+            </div>
+            <div class="item md:max-w-[768px] transition ease-in-out delay-150">
+                <div class="w-full">
+                    <figure>
+                        <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="image">
+                    </figure>
+                    <h2 class="font-medium mt-2">2. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                    <p class="text-neutral-500 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, molestias eos! Inventore sint est veniam.</p>
+                    <a href="#" class="text-xs text-blue-500">READ MORE</a>
+                </div>
+            </div>
+            <div class="item md:max-w-[768px] transition ease-in-out delay-150">
+                <div class="w-full">
+                    <figure>
+                        <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="image">
+                    </figure>
+                    <h2 class="font-medium mt-2">3. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                    <p class="text-neutral-500 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, molestias eos! Inventore sint est veniam.</p>
+                    <a href="#" class="text-xs text-blue-500">READ MORE</a>
+                </div>
+            </div>
+            <div class="item md:max-w-[768px] transition ease-in-out delay-150">
+                <div class="w-full">
+                    <figure>
+                        <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="image">
+                    </figure>
+                    <h2 class="font-medium mt-2">4. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                    <p class="text-neutral-500 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, molestias eos! Inventore sint est veniam.</p>
+                    <a href="#" class="text-xs text-blue-500">READ MORE</a>
+                </div>
+            </div>
+            <div class="item md:max-w-[768px] transition ease-in-out delay-150">
+                <div class="w-full">
+                    <figure>
+                        <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614609786_140-p-kartinki-dlya-fotoshopa-fon-201.jpg" alt="image">
+                    </figure>
+                    <h2 class="font-medium mt-2">5. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                    <p class="text-neutral-500 mt-2 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, molestias eos! Inventore sint est veniam.</p>
+                    <a href="#" class="text-xs text-blue-500">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            const carousel = $('.owl-carousel')
+            carousel.owlCarousel({
+                margin:32,
+                loop:true,
+                nav:true,
+                navText: ['<i class="bi bi-chevron-compact-left text-4xl text-blue-500 hover:text-white hover:bg-blue-500"></i>', 
+                          '<i class="bi bi-chevron-compact-right text-4xl text-blue-500 hover:text-white hover:bg-blue-500"></i>'],
+                responsive:{
+                    0:{
+                        items: 1,
+                    },
+                    678:{
+                        items: 2,
+                        autoWidth:true,
+                    },
+                },
+            })
+            carousel.on('changed.owl.carousel', function(event) {
+                const allItems = carousel.find('.owl-item');
+                const allActive = carousel.find('.owl-item.active'); allItems.css('opacity', '10%')
+                const activeItem = allItems.eq(event.item.index);    activeItem.css('opacity', '100%');
+                
+            });
+        })
+
+    </script>
+    <style>
+        .owl-carousel{
+            padding: 0 16px 0 16px;
+        }
+        .owl-nav{
+            display: inline-block;
+            transform:  translateY(50%);
+        }
+        .owl-nav .owl-prev span{
+            font-size: 128px;
+            line-height: 0px;
+        }
+        .owl-dots .owl-dot{
+            width: 24px !important;
+        }
+        .owl-dots .owl-dot span{
+            height: 3px !important;
+            width: 100% !important;
+            border-radius: 0 !important;
+        }
+        @media screen and (max-width: 768px) {
+            .owl-nav{
+                display: block;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</body>
+
+</html>
